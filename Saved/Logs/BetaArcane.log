@@ -1331,3 +1331,46 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.06-20.46.54:629][223]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 70015.59 ms.
 [2026.04.06-20.46.56:151][228]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 71529.76 ms.
 [2026.04.06-20.47.34:021][901]LogDerivedDataCache: C:/Users/Richa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.003 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.04.06-20.48.53:294][475]LogShaderCompilers: Display: ================================================
+[2026.04.06-20.48.53:294][475]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.06-20.48.53:294][475]LogShaderCompilers: Display: Total job queries 2,532, among them cache hits 632 (24.96%), DDC hits 1,799 (71.05%), Duplicates 100 (3.95%)
+[2026.04.06-20.48.53:294][475]LogShaderCompilers: Display: Tracking 1,800 distinct input hashes that result in 1,130 distinct outputs (62.78%)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: RAM used: 11.57 MiB of 819.20 MiB budget. Usage: 1.41%
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Shaders Compiled: 1
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Job execution time: average 24.81 s, max 24.81 s
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Job life time (pending + execution): average 24.90 s, max 24.90
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Shader code size: total 6.137 KiB, numShaders 1, average 6.137 KiB, min 6.137 KiB, max 6.137 KiB
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 24.90 s
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.54%
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Average processing rate: 0.04 jobs/sec
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Total thread time: 1.915 s
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Total thread preprocess time: 45.546 s
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Percentage time preprocessing: 2378.78%
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Effective parallelization: 0.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.007690
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.91 sec, max 1.91 sec, min 1.91 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                                TVirtualTexturePSDisplacement (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                     TVirtualTexturePSBaseColorNormalSpecular (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                    TVirtualTexturePSBaseColorNormalRoughness (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                                       TVirtualTexturePSMask4 (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 1.91 sec, max 1.91 sec, min 1.91 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                     TVirtualTexturePSBaseColorNormalSpecular - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                    TVirtualTexturePSBaseColorNormalRoughness - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                                       TVirtualTexturePSMask4 - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display:                    TVirtualTextureVSBaseColorNormalRoughness - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: === Material stats ===
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Materials Translated:    143
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Material Translation Only: 0.04 s (24%)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.04.06-20.48.53:295][475]LogShaderCompilers: Display: ================================================
+[2026.04.06-20.51.55:552][ 39]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 372.326172
+[2026.04.06-20.51.56:548][ 42]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-20.51.56:548][ 42]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 372.991516, Update Interval: 330.262756
